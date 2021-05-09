@@ -16,7 +16,7 @@ class ContactVC: UIViewController, UISearchBarDelegate {
     
     var contactList = [Contact]()
     var contactsWithSections = [[Contact]]()
-    let collation = UILocalizedIndexedCollation.current() // create a locale collation object, by which we can get section index titles of current locale. (locale = local contry/language)
+    let collation = UILocalizedIndexedCollation.current()
     var sectionTitles = [String]()
     var filterData = [Contact]()
     var isSearch : Bool = false
